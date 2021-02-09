@@ -1,0 +1,15 @@
+<templateSet group="PHP">
+  <template name="pubf" value="public function $NAME$($PARAMETERS$)&#10;{&#10;    $END$&#10;}" description="public function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="met" value="public function $NAME$($PARAMETERS$)&#10;{&#10;    $END$&#10;}" description="Creates a new public method" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+</templateSet>
