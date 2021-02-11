@@ -26,6 +26,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
+  <action id="EditorDeleteToLineEnd" />
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
   </action>
@@ -65,6 +66,10 @@
     <keyboard-shortcut first-keystroke="ctrl g" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta l" />
   </action>
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="shift escape" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta k" />
+  </action>
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="shift meta f12" />
     <keyboard-shortcut first-keystroke="meta b" />
@@ -77,8 +82,17 @@
     <keyboard-shortcut first-keystroke="shift alt tab" />
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta p" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
   <action id="RunAnything">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta x" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta r" />
   </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="ctrl meta g" />
