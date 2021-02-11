@@ -1,4 +1,4 @@
-<keymap version="1" name="Sublime Text (macOS) copy" parent="Sublime Text (Mac OS X)">
+<keymap version="1" name="Grant mac" parent="Sublime Text (Mac OS X)">
   <action id="ActivateCommitToolWindow">
     <keyboard-shortcut first-keystroke="meta 0" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta g" />
@@ -21,6 +21,10 @@
   <action id="EditorAddCaretPerSelectedLine">
     <keyboard-shortcut first-keystroke="shift alt g" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta c" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+    <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
@@ -90,4 +94,5 @@
     <keyboard-shortcut first-keystroke="shift ctrl g" />
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
+  <action id="Vcs.Push" />
 </keymap>
