@@ -1,9 +1,0 @@
-<application>
-  <component name="WebServers">
-    <option name="servers">
-      <webServer id="e45a4c6a-f488-4c8f-808b-6245174de1e8" name="Cruxos" url="http://dev.cruxos.com">
-        <fileTransfer accessType="LOCAL" port="0" />
-      </webServer>
-    </option>
-  </component>
-</application>
