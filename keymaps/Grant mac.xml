@@ -46,6 +46,7 @@
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
   </action>
+  <action id="Exit" />
   <action id="FileChooser.NewFile">
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
@@ -110,6 +111,9 @@
   </action>
   <action id="StretchSplitToRight">
     <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="StringManipulation.ToSnakeCase">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta q" />
   </action>
   <action id="UnselectPreviousOccurrence">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
