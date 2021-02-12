@@ -12,13 +12,13 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
-  <template name="it" value="it('$DESCRIPTION$', function() {&#10;    $END$&#10;});" toReformat="false" toShortenFQNames="true">
+  <template name="it" value="it('$DESCRIPTION$', function() {&#10;    $END$&#10;});" description="" toReformat="false" toShortenFQNames="true">
     <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="pest" value="test('$DESCRIPTION$', function() {&#10;    $END$&#10;});" toReformat="false" toShortenFQNames="true">
+  <template name="pest" value="test('$DESCRIPTION$', function() {&#10;    $END$&#10;});" description="" toReformat="false" toShortenFQNames="true">
     <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
