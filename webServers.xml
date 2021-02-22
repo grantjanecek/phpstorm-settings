@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a0e09857-3104-416e-a1bb-3b3a8ac5588d" name="Flywheel" url="http://flywheel.test">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
+    </option>
+  </component>
+</application>
