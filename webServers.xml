@@ -4,6 +4,9 @@
       <webServer id="a0e09857-3104-416e-a1bb-3b3a8ac5588d" name="Flywheel" url="http://flywheel.test">
         <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
+      <webServer id="0199f834-abe9-4d9b-918d-93c2b006dec8" name="Kidolink" url="http://kidolink.test">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
     </option>
   </component>
 </application>
