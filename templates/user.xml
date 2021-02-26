@@ -10,4 +10,9 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
+  <template name="urf" value="use RefreshDatabase;" description="Creates a phpunit test cas" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
 </templateSet>
