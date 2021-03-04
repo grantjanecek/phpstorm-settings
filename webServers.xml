@@ -7,6 +7,9 @@
       <webServer id="0199f834-abe9-4d9b-918d-93c2b006dec8" name="Kidolink" url="http://kidolink.test">
         <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
+      <webServer id="a3424738-cf79-4a16-bd67-4dd2ed9f1cd8" name="Pimcore" url="http://waypoint-pimcore.test">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
     </option>
   </component>
 </application>
