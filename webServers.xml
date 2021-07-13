@@ -10,6 +10,9 @@
       <webServer id="a3424738-cf79-4a16-bd67-4dd2ed9f1cd8" name="Pimcore" url="http://waypoint-pimcore.test">
         <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
+      <webServer id="f82c763b-9f65-4a09-927d-ea658bbb5c74" name="Ezdown" url="http://ezdown.test">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
     </option>
   </component>
 </application>
