@@ -13,6 +13,9 @@
       <webServer id="f82c763b-9f65-4a09-927d-ea658bbb5c74" name="Ezdown" url="http://ezdown.test">
         <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
+      <webServer id="4b871b8b-71e6-4390-ad40-c1f5ed0cf31c" name="Jump" url="http://local.jumppub.test">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
     </option>
   </component>
 </application>
